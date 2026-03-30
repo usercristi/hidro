@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Autentificare Hidroelectrica",
+        "description": "Introdu datele tale de acces pentru portalul Hidroelectrica",
+        "data": {
+          "username": "Adresă email",
+          "password": "Parolă"
+        }
+      },
+      "select_account": {
+        "title": "Selectează contul",
+        "description": "Alege contul pe care vrei să-l monitorizezi",
+        "data": {
+          "uan": "Cont (UAN)"
+        }
+      },
+      "options": {
+        "title": "Opțiuni actualizare",
+        "description": "Configurează intervalul de actualizare",
+        "data": {
+          "scan_interval": "Interval actualizare (secunde)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Autentificare eșuată. Verifică username-ul și parola.",
+      "unknown": "Eroare neașteptată. Verifică logurile."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opțiuni Hidroelectrica",
+        "data": {
+          "scan_interval": "Interval actualizare (secunde)"
+        }
+      }
+    }
+  }
+}

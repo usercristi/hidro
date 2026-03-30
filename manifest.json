@@ -1,0 +1,14 @@
+{
+  "domain": "hidro",
+  "name": "Hidroelectrica România",
+  "version": "1.0.0",
+  "requirements": ["requests>=2.25.0"],
+  "dependencies": [],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "documentation": "https://example.com/docs",
+  "issue_tracker": "https://example.com/issues",
+  "integration_type": "hub",
+  "loggers": ["custom_components.hidro"]
+}
