@@ -7,8 +7,8 @@
   "codeowners": [],
   "config_flow": true,
   "iot_class": "cloud_polling",
-  "documentation": "https://example.com/docs",
-  "issue_tracker": "https://example.com/issues",
+  "documentation": "https://github.com/usercristi/hidro",
+  "issue_tracker": "https://github.com/usercristi/hidro/issues",
   "integration_type": "hub",
   "loggers": ["custom_components.hidro"]
 }
